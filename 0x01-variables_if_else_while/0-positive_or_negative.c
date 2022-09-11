@@ -6,13 +6,13 @@
 
 /**
  *
- * * main - Starts the program
+ * main - Starts the program
  *
- * * Description: Betty coding style
+ * Description: Betty coding style
  *
- * * Return: Always 0 (success)
+ * Return: Always 0 (success)
  *
- * */
+ */
 
 int main(void)
 
