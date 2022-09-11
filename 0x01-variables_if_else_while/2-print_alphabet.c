@@ -4,7 +4,6 @@
  * Description: using the main function
  * this program prints all possible different combinations of two digits
  * Return: 0
- *
  */
 int main(void)
 {
@@ -12,12 +11,12 @@ int main(void)
 	int j;
 	for (i = 48; i < 57; i++)
 	{
-		for (j = i + 1; j <= 57; j++)
+	for (j = i + 1; j <= 57; j++)
 		{
-			putchar(i);
-			putchar(j);
-			if (j == 57 && i == 56)
-				break;
+		putchar(i);
+		putchar(j);
+		if (j == 57 && i == 56)
+			break;
 			putchar(44);
 			putchar(32);
 		}
