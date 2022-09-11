@@ -1,19 +1,11 @@
 #include <stdio.h>
-
 #include <stdlib.h>
-
 #include <time.h>
-
 /**
- *
  * main - Starts the program
- *
  * Description: Betty coding style
- *
  * Return: Always 0 (success)
- *
  */
-
 int main(void)
 
 {
