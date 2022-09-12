@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main - this coding is sweet
- * Description: using the main function
- * this program prints all possible combinations of single-digit numbers
- * Return: 0
- */
+ * * main - this coding is sweet
+ * * Description: using the main function
+ * * this program prints all possible combinations of single-digit numbers
+ * * Return: 0
+ * */
 int main(void)
 {
 	int c;
