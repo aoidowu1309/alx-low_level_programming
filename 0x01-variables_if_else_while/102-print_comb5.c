@@ -8,10 +8,10 @@
 int main(void)
 {
 	int i, o;
+
 	for (i = 0; i < 100; i++)
 	{
 		for (o = i + 1; o < 100; o++)
-
 		{
 			putchar((i / 10) + '0');
 			putchar((i % 10) + '0');
