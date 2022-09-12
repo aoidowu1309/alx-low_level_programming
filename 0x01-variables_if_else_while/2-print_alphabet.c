@@ -10,6 +10,7 @@ int main(void)
 {
 	char ball;
 	for (ball = 'a'; ball <= 'z'; ball++)
+
 		putchar(ball);
 	putchar('\n');
 	return (0);
