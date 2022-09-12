@@ -19,7 +19,7 @@ int main(void)
 	putchar((o % 10) + '0');
 	if (i == 98 && 0 == 99)
 		continue;
-putchar(' , ');
+putchar(',');
 putchar(' ');
 		}
 	}
