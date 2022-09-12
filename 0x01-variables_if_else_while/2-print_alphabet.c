@@ -9,8 +9,7 @@
 int main(void)
 {
 	char ball;
-	for (ball = 'a'; ball <= 'z'; ball++);
-
+	for (ball = 'a'; ball <= 'z'; ball++)('\n')
 		putchar(ball);
 	putchar('\n');
 	return (0);
