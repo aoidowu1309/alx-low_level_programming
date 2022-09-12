@@ -1,14 +1,9 @@
 #include <stdio.h>
 /**
- *
- * * main - ending this in style
- *
- * * Description: using the main function
- *
- * * this program prints all possible combinations of two two-digit numbers
- *
- * * Return: 0
- *
+ * main - ending this in style
+ * Description: using the main function
+ * this program prints all possible combinations of two two-digit numbers
+ * Return: 0
  * */
 int main(void)
 {
