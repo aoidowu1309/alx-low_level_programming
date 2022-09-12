@@ -8,6 +8,8 @@
  */
 int main(void)
 {
+	/* code goes here
+	 */
 	char ball;
 	for (ball = 'a'; ball <= 'z'; ball++)
 
