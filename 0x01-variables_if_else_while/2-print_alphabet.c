@@ -7,22 +7,22 @@
  */
 int main(void)
 {
-	int i, 0;
+	int i, o;
 	for (i = 0; i < 100; i++)
 	{
-		for (0 = i + i; o < 100; o++)
+		for (o = i + 1; o < 100; o++)
 		{
-	putchar((i / 10) + '0');
-	putchar((i % 10) + '0');
-	putchar(' ');
-	putchar((o / 10) + '0');
-	putchar((o % 10) + '0');
-	if (i == 98 && 0 == 99)
-		continue;
-putchar(',');
-putchar(' ');
+			putchar((i / 10) + '0');
+			putchar((i % 10) + '0');
+			putchar(' ');
+			putchar((o / 10) + '0');
+			putchar((o % 10) + '0');
+			if (i == 98 && o == 99)
+				continue;
+			putchar(',');
+			putchar(' ');
 		}
 	}
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }
