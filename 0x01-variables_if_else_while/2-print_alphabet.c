@@ -1,24 +1,31 @@
 #include <stdio.h>
 /**
- * main - this coding is sweet
- * Description: using the main function
- * this program prints all possible different combinations of two digits
- * Return: 0
- */
+ *
+ * * main - ending this in style
+ *
+ * * Description: using the main function
+ *
+ * * this program prints all possible combinations of two two-digit numbers
+ *
+ * * Return: 0
+ *
+ * */
 int main(void)
 {
-	int i;
-	int j;
-	for (i = 48; i < 57; i++)
+	int i, o;
+	for (i = 0; i < 100; i++)
 	{
-		for (j = i + 1; j <= 57; j++)
+		for (o = i + 1; o < 100; o++)
 		{
-			putchar(i);
-			putchar(j);
-			if (j == 57 && i == 56)
-				break;
-			putchar(44);
-			putchar(32);
+			putchar((i / 10) + '0');
+			putchar((i % 10) + '0');
+			putchar(' ');
+			putchar((o / 10) + '0');
+			putchar((o % 10) + '0');
+			if (i == 98 && o == 99)
+				continue;
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
