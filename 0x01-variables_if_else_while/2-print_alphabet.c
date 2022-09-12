@@ -1,14 +1,16 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 /*
- * main - Start the coding here
- * Description: print the alphabet in lower case
- * Return: Always 0 (success)
+ *main - Start the coding here my friend
+ *Description: prints  the alphabet in lowercase
+ *Return: Always 0 (Success)
  */
 int main(void)
-	int ch;
-	clrscr();
-	for (ch= 'a'; ch<= 'Z'; ch++)
-	putchar(ch);
-	putchar('n\');
-	getch();
 {
+	char ball;
+	for (ball = 'a'; ball <= 'z'; ball++)
+		putchar(ball);
+	putchar('\n');
+	return (0);
+}
