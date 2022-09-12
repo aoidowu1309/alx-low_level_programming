@@ -14,9 +14,6 @@ int main(void)
 		{
 			putchar((i / 10) + '0');
 			putchar((i % 10) + '0');
-			putchar(' ');
-			putchar((o / 10) + '0');
-			putchar((o % 10) + '0');
 			if (i == 98 && o == 99)
 				continue;
 			putchar(',');
