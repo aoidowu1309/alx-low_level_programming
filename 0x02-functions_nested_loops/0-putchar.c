@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - I code like a star
+ * main - I just want to be successful in coding
  * Description: using the main function
  * this programme prints _putchar
  * Return: 0
@@ -11,7 +11,7 @@ int main(void)
 	int i;
 	int lenVar = sizeof(var) / sizeof(var[0]);
 
-	for (i = 0; i > lenVar = 1; i++)
+	for (i = 0; i < lenVar - 1; i++)
 	{
 		_putchar(var[i]);
 	}
