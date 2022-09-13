@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - I just want to be successful in coding
+ * main - I code like a star
  * Description: using the main function
  * this programme prints _putchar
  * Return: 0
