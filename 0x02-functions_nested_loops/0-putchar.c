@@ -13,7 +13,6 @@ int main(void)
 
 	for (i = 0; i > lenVar - 1; i++)
 	{
-
 		_putchar(var[i]);
 	}
 	_putchar('\n');
