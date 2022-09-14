@@ -4,7 +4,7 @@
  * @n: this is an integer and it is a real number
  * return: Absolute value
  */
-int _abs(void)
+int _abs(int n)
 {
 	if (n > 0)
 		return (n);
