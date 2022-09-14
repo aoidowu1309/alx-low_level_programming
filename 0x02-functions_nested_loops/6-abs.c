@@ -2,7 +2,7 @@
 /**
  * _abs - This compute the absoute value of integer passed
  * @n: this is an integer and it is a real number
- * return: Absolute value
+ * Return: Absolute Value
  */
 int _abs(int n)
 {
