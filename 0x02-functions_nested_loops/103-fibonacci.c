@@ -1,25 +1,23 @@
 #include <stdio.h>
 /**
- * main - Coding weet die, I wan code enter UK Insha Allah
- * Description: using the main function, this program prints
- * the first 50 Fibonacci numbers, starting with 1 and 2
+ * main - I just want to code till I become expert
+ * description: using the main function, this program prints
+ * the sum of the even values of a fibonacci
  * Return: 0
  */
 int main(void)
 {
-	long int n1 = 1, result, n2 = 2, nLast = 50;
-	int i;
+	int i = 1, j = 2, total = 0;
+	int k;
 
-	printf("%lu, %lu, ", n1, n2);
-	for (i = 2; i < nLast; i++)
+	while (j < 4000000)
 	{
-		result = n1 + n2;
-		n1 = n2;
-		n2 = result;
-		printf("%lu", result);
-		if (i != nLast - 1)
-			printf(", ");
+		if (j % 2 == 0)
+			total += j;
+		k = j;
+		j += i;
+		i = k;
 	}
-	printf("\n");
+	printf("%d\n", total);
 	return (0);
 }
