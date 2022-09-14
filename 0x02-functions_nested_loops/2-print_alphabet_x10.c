@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_10 - an amazing function for the geegz
+ * print_alphabet_x10 - an amazing function for the geegz
  * description: Prints a-z in lowercase 10 times
  * Return: Nothing (Null, void)
  */
