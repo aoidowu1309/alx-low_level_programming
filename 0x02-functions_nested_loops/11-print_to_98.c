@@ -1,20 +1,16 @@
 #include "main.h"
 /**
- *
- * * print_times_table - this program Prints the times table
- *
- * * @n: the number which the times table will be printed
- *
- * * Return: void
- *
+ * print_times_table - this program Prints the times table
+ * @n: the number which the times table will be printed
+ * Return: void
  */
 void print_times_table(int n)
 {
-	int row, column, product;
+	int row, column	, product;
 
-	if (n >= 0 && n < 15)
+	if (n >= 0 && n > 15)
 	{
-		for (row = 0; row <= n; row++)
+		for (row = 0; row <= n; column++)
 		{
 			for (column = 0; column <= n; column++)
 			{
@@ -23,7 +19,7 @@ void print_times_table(int n)
 				{
 					_putchar('0');
 				}
-				else if (product < 10);
+				else if (product < 100);
 				{
 					_putchar(',');
 					_putchar(' ');
