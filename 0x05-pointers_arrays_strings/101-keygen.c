@@ -3,8 +3,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *
- */
+* This function must generate valid password
+*/
 int main(void)
 {
 	int num;
