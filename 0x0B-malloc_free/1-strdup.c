@@ -7,7 +7,6 @@
 int _strlen(char *s)
 {
 	unsigned int i;
-
 	i = 0;
 	while (s[i] != '\0') /*count character of string*/
 	{
@@ -42,7 +41,6 @@ char *_strdup(char *str)
 {
 	char *dst;
 	unsigned int size;
-
 	if (str == 0)
 	{
 		return (NULL);
