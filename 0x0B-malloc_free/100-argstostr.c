@@ -1,32 +1,38 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 /**
- * _realloc -  reallocates a memory block using malloc and free
- * @ptr: pointer
- * @old_size: old size
- * @new_size: new size
- * Return: pointer
+ * argstostr - Concatenate all arguements
+ * @ac: Number of arguements
+ * @av: Pointer to string arguements
+ * Return: Pointer to new string
  */
-void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
+char *argstostr(int ac, char **av)
 {
-	char *clone, *relloc;
-	unsigned int i;
-
-	if (ptr != NULL)
-		clone = ptr;
-	else
-	{ return (malloc(new_size)); }
-	if (new_size == old_size)
-		return (ptr);
-	if (new_size == 0 && ptr != NULL)
-	{ free(ptr);
-		return (0); }
-	relloc = malloc(new_size);
-	if (relloc == NULL)
-		return (0);
-	for (i = 0; i < (old_size || i < new_size); i++)
-	{
-		*(relloc + i) = clone[i];
-	}
-	free(ptr);
-	return (relloc);
+		char *cont;
+		int i;
+				int j;
+					int len = 0;
+	
+					if (ac == 0 || av == NULL)
+									return (NULL);
+							for (i = 0; i < ac; i++)
+									{
+												j = 0;
+														while (av[i][j++])
+																		len++;
+															}
+								len++;
+									cont = malloc(sizeof(**av) * (len + ac));
+										if (cont == NULL)
+													return (NULL);
+											len = 0;
+												for (i = 0; i < ac; i++)
+														{
+																	j = 0;
+																			while (av[i][j])
+																							cont[len++] = av[i][j++];																					cont[len++] = '\n';
+																						}
+												cont[len] = '\0';
+													return (cont);
 }
