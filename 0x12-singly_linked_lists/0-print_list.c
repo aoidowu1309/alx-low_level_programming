@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * print_list - prints list.
+ * print_list - prints list
  * @h: param list
  * Return: struct
  */
